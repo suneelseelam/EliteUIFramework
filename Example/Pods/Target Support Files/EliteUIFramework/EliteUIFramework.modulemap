@@ -1,0 +1,6 @@
+framework module EliteUIFramework {
+  umbrella header "EliteUIFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
