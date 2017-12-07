@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EliteUIFramework_Example' do
+  pod 'EliteUIFramework', :path => '../'
+
+  target 'EliteUIFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
