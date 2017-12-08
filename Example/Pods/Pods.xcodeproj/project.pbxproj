@@ -7,69 +7,148 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FEA0D7944274F0FBFFF2D32746EC05F /* Pods-EliteUIFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CE0B950A5639A2123BFA36EF24EECB /* Pods-EliteUIFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4645DC011CBC9F8BBEB23C461AD963A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		033EE98CBBB79011B396D9C71BD3C719 /* CountDownLabel+CountDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68962CC426E189F38274C7844864FCC4 /* CountDownLabel+CountDown.swift */; };
+		0E3BFC96C6A7CCADAF3DA6C3C80F35EC /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B85C6C39986DB389CF827D43FC38656 /* SWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		114266643ECF5CF8D7251106781B6BE5 /* EliteUIFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3EFD3D7A9E31A2D13AB28899985FFA /* EliteUIFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1648AB9E52071D70CD79280AB21C94D1 /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEF9DD7DCA79866D39510B4B3836A16 /* ActionSheetDistancePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A0130E51AF422F68818416677EE6595 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0411B763BD30ABF699F609443944B8 /* ActionSheetDatePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		246DD685C951FFF04D55232211F076CD /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CFBFDCDFE941ECF81DB994EAC61F78 /* ActionSheetDistancePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2680FB2A9AAFE79796C23A20390CEF45 /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B3B5AEF57DDB103BABC898AACB0F19 /* AbstractActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29C34B43AFA7A1D88AB188801C76E08C /* ActionSheetPicker-3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7BB4584A293865661605294BFF38DB /* ActionSheetPicker-3.0-dummy.m */; };
+		2AEB1DA15C80FE4F4C7B5544444501A0 /* Pods-EliteUIFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D175A8499DDDF668F9CB2D78BA7960F0 /* Pods-EliteUIFramework_Example-dummy.m */; };
+		2ED13E5E1D902CF30375B684E1C4B138 /* ActionSheetPicker_3_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADFD8562A4B1A3373162135858884A2 /* ActionSheetPicker_3_0.framework */; };
+		3C8D2470783809376BA929A9603C21D9 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086C9BB20FDDB53D3906CA1583413803 /* DistancePickerView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		430E0A46B42F47FF79AE16168D1613E9 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A139D8751FAFFA73664DC890D44C508 /* ActionSheetLocalePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4645DC011CBC9F8BBEB23C461AD963A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7528B7EF8120DDB1505D80D00C905BBD /* Foundation.framework */; };
 		52455C3EFE70EEECA57D7E7AEDB01588 /* Pods-EliteUIFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22657A3AFE30135AB897E05950EA9503 /* Pods-EliteUIFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E154F0E51F2BBE75A5C449AC55665E3 /* Pods-EliteUIFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D175A8499DDDF668F9CB2D78BA7960F0 /* Pods-EliteUIFramework_Example-dummy.m */; };
+		5306CCDC958648DFFF8CD9FD0B4C9E73 /* CountDownLabel+Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B18E1144C2A66A5D018D8A84C565AB /* CountDownLabel+Timer.swift */; };
+		6C16BD3BCB1B65194E7CEA5CF15AD446 /* ActionSheetMultipleStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = E13EF4565283497DA8231BFE0A63E06E /* ActionSheetMultipleStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71B290CF92EE6C38568C2F38E40C7B4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7528B7EF8120DDB1505D80D00C905BBD /* Foundation.framework */; };
+		82DB07E1965CC9FFA0340EDA2C5A05A0 /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = E33A609A31EC0E8493E555C8759C000B /* ActionSheetLocalePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83678861FC71A2BE986560E60D265F1C /* ActionSheetPicker-3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0E672E563F5E19BD623A008CB038DD /* ActionSheetPicker-3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87374A1778402EC7AB11EEC83332124E /* Pods-EliteUIFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D19162ACBCE5C9C6E13BC71BEEBDA365 /* Pods-EliteUIFramework_Tests-dummy.m */; };
-		BC15D6AECAB33319BD661AAD642137BD /* EliteUIFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 774A0AD974D1A88A8FFEB6E1756E04A1 /* EliteUIFramework-dummy.m */; };
-		CEE9112716DE2D86535A02E349EA32F5 /* EliteUIFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E00C80CDB8EF2A78E6D5ED568629DB74 /* EliteUIFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F474E54A887F80CC0F839F3B76947E15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F9BFAED7DA6C7918C9EBC3481A0CC903 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FB6D4D43F40BB8CA6F9F79834BED9126 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7015FF9DBAE6B00766D96B5A97909C80 /* ReplaceMe.swift */; };
+		90E3389D33DD00DE304548BE9C52C69F /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = CCFF8962890382B357B0CEE2401DADF9 /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2B8491E6B1B8EA1C9ACD37341C726B /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0937C8B68D89F7C7732C67E7BF61D850 /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B867960879FDDD089A9E41F027E13B9 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F924914A7C17D78AE7B652B981724E /* AbstractActionSheetPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9BC276383ED044BB0926AFDFD73F928E /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC0945BA2993786D8C8CB31A8B2B05C /* ActionSheetDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2F74AC56E76F01E7A69BB8D3A7E3DB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0705EFF68960AD2C40538E0020B7002 /* UIKit.framework */; };
+		AE84E0341C26A9B5C8E1501C8E8AAC8F /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C568B07D7817264B94197F093BD292F9 /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3ABDB1A0FEAF260F3D56BA7A90F3DD8 /* EliteUIFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4391E31E73B22E0729215BE8A06C3419 /* EliteUIFramework-dummy.m */; };
+		B3B48A0E143F8792723F9B80701C848C /* ValidationErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACAA5815AED1B0EA5406F421EC8E470 /* ValidationErrorMessage.swift */; };
+		BDBFA441010D34FB51DC32F28314AD8D /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A7FB5AF07C70BF12318BE490621954 /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE5793FD19E7C05B798BE3A257DF6326 /* AlertErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8786D0C4DB3B0DEF27A905E7F819A9A1 /* AlertErrorMessage.swift */; };
+		BFB6299048636793A270D2E1D1ECC06E /* CountDownLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0ACAD2519819D3518D7941FEBFE3E1 /* CountDownLabel.swift */; };
+		C6CB72E223B27A0C2B06910EC0FADF67 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5087EB01E4D0F4BEE53232C3CB94B5B2 /* ActionSheetStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CA068FC25E80824549668A53EC9379EC /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = CCDA8D17CF2D7407FC0354A732CB4258 /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC838339C0E4BB6BB1B5E03D21CB3893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7528B7EF8120DDB1505D80D00C905BBD /* Foundation.framework */; };
+		D682B0006FE8CD0F1F4429333C8A9049 /* Pods-EliteUIFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CE0B950A5639A2123BFA36EF24EECB /* Pods-EliteUIFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA732A6C79E7252A25F23A1497ACD0FD /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E668A06BB8C37BF2359F52F5E1C47FA /* ActionSheetMultipleStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DFEAA05938593BBCE4DDA858FC338E3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7528B7EF8120DDB1505D80D00C905BBD /* Foundation.framework */; };
+		E049CE807DA7A012BA222DE64920C3D1 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E60CFA1A2D37281B9FB7AC8BF76C4B6 /* SWActionSheet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E61ED7FAF083B75902728EB20AC4BD92 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A0573E8A3A98E7C64FA4A498911E45 /* ActionSheetCustomPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FB0D73B72736D0A6E8EECA5A764C266E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0705EFF68960AD2C40538E0020B7002 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B1C98C0DAD88B9DE7F94596F2B3CA67B /* PBXContainerItemProxy */ = {
+		05B801C83AAEA823856579FF5DAE8CCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 08EC66F40D0BAAF93AD87C69A88FCC7B;
+			remoteGlobalIDString = 965699190112DDBD9B7864D091660DBC;
+			remoteInfo = "ActionSheetPicker-3.0";
+		};
+		869B11DB7CEC443DEB674AFD607A2A3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21937D7D659EA8D27545E970392C7A29;
 			remoteInfo = EliteUIFramework;
+		};
+		E48B6FAE32FD8225D5451D52052A4CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965699190112DDBD9B7864D091660DBC;
+			remoteInfo = "ActionSheetPicker-3.0";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01550F5EEDF59AC8BAE58DA59B02390E /* EliteUIFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EliteUIFramework.xcconfig; sourceTree = "<group>"; };
-		09136E41951897AF9F1ACE2FBD342183 /* EliteUIFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EliteUIFramework-prefix.pch"; sourceTree = "<group>"; };
-		0E257937F8C097742CCFA6464E6DA6D5 /* Pods_EliteUIFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EliteUIFramework_Example.framework; path = "Pods-EliteUIFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		116FE69A1A5453DDE6269A18AC6F16F7 /* Pods-EliteUIFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EliteUIFramework_Tests.modulemap"; sourceTree = "<group>"; };
-		168BC9BB935CCB2D1012B476CF6DB594 /* EliteUIFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EliteUIFramework.modulemap; sourceTree = "<group>"; };
+		086C9BB20FDDB53D3906CA1583413803 /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = Pickers/DistancePickerView.m; sourceTree = "<group>"; };
+		0937C8B68D89F7C7732C67E7BF61D850 /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
+		116FE69A1A5453DDE6269A18AC6F16F7 /* Pods-EliteUIFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EliteUIFramework_Tests.modulemap"; sourceTree = "<group>"; };
+		125ABD9002B906D734651155D486C903 /* Pods_EliteUIFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EliteUIFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15082E55D68C8536950ADF2452AF407F /* EliteUIFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EliteUIFramework.modulemap; sourceTree = "<group>"; };
 		1990636802B0568E33DA7138327E5D7E /* Pods-EliteUIFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliteUIFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1A139D8751FAFFA73664DC890D44C508 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		1E668A06BB8C37BF2359F52F5E1C47FA /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetMultipleStringPicker.m; path = Pickers/ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
 		207FAD453331B8DA43CB98D02972F252 /* Pods-EliteUIFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EliteUIFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
 		21CE0B950A5639A2123BFA36EF24EECB /* Pods-EliteUIFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EliteUIFramework_Example-umbrella.h"; sourceTree = "<group>"; };
 		22657A3AFE30135AB897E05950EA9503 /* Pods-EliteUIFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EliteUIFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
+		235A5A33BFF159DED3889BD6E972DD9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29A7FB5AF07C70BF12318BE490621954 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
 		2B990F32E4A79982A13316AAA4569988 /* Pods-EliteUIFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EliteUIFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35D705DC01D54080063C4EF4FFE02788 /* EliteUIFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EliteUIFramework.xcconfig; sourceTree = "<group>"; };
+		38B18E1144C2A66A5D018D8A84C565AB /* CountDownLabel+Timer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CountDownLabel+Timer.swift"; sourceTree = "<group>"; };
+		3A4C1EF40CC3CD86CD762BF96514F9F3 /* ActionSheetPicker-3.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.xcconfig"; sourceTree = "<group>"; };
 		3D569AF6BAE1720EF585CE77059D1158 /* Pods-EliteUIFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EliteUIFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F0E672E563F5E19BD623A008CB038DD /* ActionSheetPicker-3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-umbrella.h"; sourceTree = "<group>"; };
+		4391E31E73B22E0729215BE8A06C3419 /* EliteUIFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EliteUIFramework-dummy.m"; sourceTree = "<group>"; };
+		4444C78D6B39A89F38F785104058FF93 /* ActionSheetPicker-3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "ActionSheetPicker-3.0.modulemap"; sourceTree = "<group>"; };
+		5087EB01E4D0F4BEE53232C3CB94B5B2 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		510682B807CA06D19F1969D5F03FDFFB /* EliteUIFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EliteUIFramework-prefix.pch"; sourceTree = "<group>"; };
 		54431C0B25B89FE0D399857F7C05E322 /* Pods-EliteUIFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliteUIFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
+		54EC06328864E7CB8FF34E94B5783FBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593204011BA201B60BC063BFD2A1E76A /* ActionSheetPicker-3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-prefix.pch"; sourceTree = "<group>"; };
+		5AC0945BA2993786D8C8CB31A8B2B05C /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		5ADFD8562A4B1A3373162135858884A2 /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActionSheetPicker_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		646110E1A88465EB91496D6639265779 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7015FF9DBAE6B00766D96B5A97909C80 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EliteUIFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		774A0AD974D1A88A8FFEB6E1756E04A1 /* EliteUIFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EliteUIFramework-dummy.m"; sourceTree = "<group>"; };
+		66E0A0B8EB82C2B4554C41A4439AD98B /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActionSheetPicker_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68962CC426E189F38274C7844864FCC4 /* CountDownLabel+CountDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CountDownLabel+CountDown.swift"; sourceTree = "<group>"; };
+		6B85C6C39986DB389CF827D43FC38656 /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = Pickers/SWActionSheet.h; sourceTree = "<group>"; };
+		7528B7EF8120DDB1505D80D00C905BBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7D5A6028F802F594FB33A36C7795F4A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E60CFA1A2D37281B9FB7AC8BF76C4B6 /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		8786D0C4DB3B0DEF27A905E7F819A9A1 /* AlertErrorMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertErrorMessage.swift; sourceTree = "<group>"; };
+		8B3EFD3D7A9E31A2D13AB28899985FFA /* EliteUIFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EliteUIFramework-umbrella.h"; sourceTree = "<group>"; };
 		9160561913D0EA2FBDC1966F15F760BB /* Pods-EliteUIFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliteUIFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A9F61615871C96AD9C1C80E56368650 /* Pods_EliteUIFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EliteUIFramework_Tests.framework; path = "Pods-EliteUIFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E3F1B92D4D01A3EE34F85354990A38B /* Pods-EliteUIFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliteUIFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A17B3C31FC6CCE3404F1329AA0ED9491 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2AFBDB2D03A9C32679B9546FF32A66E /* Pods-EliteUIFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EliteUIFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		AAAAB8010EF85D6286C206C8050EF9BD /* Pods-EliteUIFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EliteUIFramework_Example.modulemap"; sourceTree = "<group>"; };
+		A5CFBFDCDFE941ECF81DB994EAC61F78 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		A6BB939352503500F761660E5C81CDF5 /* EliteUIFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EliteUIFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAAB8010EF85D6286C206C8050EF9BD /* Pods-EliteUIFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EliteUIFramework_Example.modulemap"; sourceTree = "<group>"; };
+		B5A0573E8A3A98E7C64FA4A498911E45 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		BA0ACAD2519819D3518D7941FEBFE3E1 /* CountDownLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountDownLabel.swift; sourceTree = "<group>"; };
+		C0B3B5AEF57DDB103BABC898AACB0F19 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		C568B07D7817264B94197F093BD292F9 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
 		CA9351C8C22B46FAF67F9528F6A09622 /* Pods-EliteUIFramework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EliteUIFramework_Example-resources.sh"; sourceTree = "<group>"; };
-		CD12C24E30F63EABEBB21007F2DD1857 /* EliteUIFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EliteUIFramework.framework; path = EliteUIFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDA8D17CF2D7407FC0354A732CB4258 /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = Pickers/DistancePickerView.h; sourceTree = "<group>"; };
+		CCFF8962890382B357B0CEE2401DADF9 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		CE7BB4584A293865661605294BFF38DB /* ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
+		D0705EFF68960AD2C40538E0020B7002 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D175A8499DDDF668F9CB2D78BA7960F0 /* Pods-EliteUIFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EliteUIFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		D19162ACBCE5C9C6E13BC71BEEBDA365 /* Pods-EliteUIFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EliteUIFramework_Tests-dummy.m"; sourceTree = "<group>"; };
-		E00C80CDB8EF2A78E6D5ED568629DB74 /* EliteUIFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EliteUIFramework-umbrella.h"; sourceTree = "<group>"; };
+		DF6685DE16A7DFAD42CFB5D5D7E0631A /* Pods_EliteUIFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EliteUIFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13EF4565283497DA8231BFE0A63E06E /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetMultipleStringPicker.h; path = Pickers/ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
 		E2BEB32EF27148FA0CF5F6B9A944AEE4 /* Pods-EliteUIFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EliteUIFramework_Tests-resources.sh"; sourceTree = "<group>"; };
+		E33A609A31EC0E8493E555C8759C000B /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
 		EA369D61D54876A2CBA9C47A941ADD1C /* Pods-EliteUIFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EliteUIFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EACAA5815AED1B0EA5406F421EC8E470 /* ValidationErrorMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ValidationErrorMessage.swift; sourceTree = "<group>"; };
+		F8F924914A7C17D78AE7B652B981724E /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		FD0411B763BD30ABF699F609443944B8 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
 		FD61C07A5448750B5D4CB191287129B1 /* Pods-EliteUIFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EliteUIFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEEF9DD7DCA79866D39510B4B3836A16 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18B99E9E10152BF59CDC8C8FF7A31736 /* Frameworks */ = {
+		082A98CFC72BB9005AD4C01DF4D70787 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9BFAED7DA6C7918C9EBC3481A0CC903 /* Foundation.framework in Frameworks */,
+				2ED13E5E1D902CF30375B684E1C4B138 /* ActionSheetPicker_3_0.framework in Frameworks */,
+				DFEAA05938593BBCE4DDA858FC338E3C /* Foundation.framework in Frameworks */,
+				FB0D73B72736D0A6E8EECA5A764C266E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,17 +160,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDD4BE73FC27850579B78F7321EFE51C /* Frameworks */ = {
+		66076240C2ED6C56B870D99D6432B3F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F474E54A887F80CC0F839F3B76947E15 /* Foundation.framework in Frameworks */,
+				CC838339C0E4BB6BB1B5E03D21CB3893 /* Foundation.framework in Frameworks */,
+				A2F74AC56E76F01E7A69BB8D3A7E3DB8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F990D7D284DC1F2A594B6D6D81C7ADF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B290CF92EE6C38568C2F38E40C7B4A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02C66CEC1EDE22E3327E1D6903C99AC9 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				C0B3B5AEF57DDB103BABC898AACB0F19 /* AbstractActionSheetPicker.h */,
+				F8F924914A7C17D78AE7B652B981724E /* AbstractActionSheetPicker.m */,
+				CCFF8962890382B357B0CEE2401DADF9 /* ActionSheetCustomPicker.h */,
+				B5A0573E8A3A98E7C64FA4A498911E45 /* ActionSheetCustomPicker.m */,
+				C568B07D7817264B94197F093BD292F9 /* ActionSheetCustomPickerDelegate.h */,
+				5AC0945BA2993786D8C8CB31A8B2B05C /* ActionSheetDatePicker.h */,
+				FD0411B763BD30ABF699F609443944B8 /* ActionSheetDatePicker.m */,
+				FEEF9DD7DCA79866D39510B4B3836A16 /* ActionSheetDistancePicker.h */,
+				A5CFBFDCDFE941ECF81DB994EAC61F78 /* ActionSheetDistancePicker.m */,
+				E33A609A31EC0E8493E555C8759C000B /* ActionSheetLocalePicker.h */,
+				1A139D8751FAFFA73664DC890D44C508 /* ActionSheetLocalePicker.m */,
+				E13EF4565283497DA8231BFE0A63E06E /* ActionSheetMultipleStringPicker.h */,
+				1E668A06BB8C37BF2359F52F5E1C47FA /* ActionSheetMultipleStringPicker.m */,
+				0937C8B68D89F7C7732C67E7BF61D850 /* ActionSheetPicker.h */,
+				29A7FB5AF07C70BF12318BE490621954 /* ActionSheetStringPicker.h */,
+				5087EB01E4D0F4BEE53232C3CB94B5B2 /* ActionSheetStringPicker.m */,
+				CCDA8D17CF2D7407FC0354A732CB4258 /* DistancePickerView.h */,
+				086C9BB20FDDB53D3906CA1583413803 /* DistancePickerView.m */,
+				6B85C6C39986DB389CF827D43FC38656 /* SWActionSheet.h */,
+				7E60CFA1A2D37281B9FB7AC8BF76C4B6 /* SWActionSheet.m */,
+				97E765E8CF6B3409EA5B16CB3D2C584A /* Support Files */,
+			);
+			path = "ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
 		0502DFC1D07CBF9D9B2DB58E20FC2CB3 /* Pods-EliteUIFramework_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,15 +226,44 @@
 			path = "Target Support Files/Pods-EliteUIFramework_Example";
 			sourceTree = "<group>";
 		};
-		5F279C28BBA65474F64721485C12700C /* Support Files */ = {
+		486855658F0E20FE776B416B9BADD392 /* ValidationErrorMessage */ = {
 			isa = PBXGroup;
 			children = (
-				168BC9BB935CCB2D1012B476CF6DB594 /* EliteUIFramework.modulemap */,
-				01550F5EEDF59AC8BAE58DA59B02390E /* EliteUIFramework.xcconfig */,
-				774A0AD974D1A88A8FFEB6E1756E04A1 /* EliteUIFramework-dummy.m */,
-				09136E41951897AF9F1ACE2FBD342183 /* EliteUIFramework-prefix.pch */,
-				E00C80CDB8EF2A78E6D5ED568629DB74 /* EliteUIFramework-umbrella.h */,
-				A17B3C31FC6CCE3404F1329AA0ED9491 /* Info.plist */,
+				EACAA5815AED1B0EA5406F421EC8E470 /* ValidationErrorMessage.swift */,
+			);
+			name = ValidationErrorMessage;
+			path = EliteUIFramework/Classes/ValidationErrorMessage;
+			sourceTree = "<group>";
+		};
+		501B28E4812633F127D9EFA017CD5B82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ADFD8562A4B1A3373162135858884A2 /* ActionSheetPicker_3_0.framework */,
+				99054868DD228F476024D95ED1191153 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B951469472360700A69F277B8EC31B1 /* CountDownLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BA0ACAD2519819D3518D7941FEBFE3E1 /* CountDownLabel.swift */,
+				68962CC426E189F38274C7844864FCC4 /* CountDownLabel+CountDown.swift */,
+				38B18E1144C2A66A5D018D8A84C565AB /* CountDownLabel+Timer.swift */,
+			);
+			name = CountDownLabel;
+			path = EliteUIFramework/Classes/CountDownLabel;
+			sourceTree = "<group>";
+		};
+		63C13539F739A6665384A1AC23171043 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15082E55D68C8536950ADF2452AF407F /* EliteUIFramework.modulemap */,
+				35D705DC01D54080063C4EF4FFE02788 /* EliteUIFramework.xcconfig */,
+				4391E31E73B22E0729215BE8A06C3419 /* EliteUIFramework-dummy.m */,
+				510682B807CA06D19F1969D5F03FDFFB /* EliteUIFramework-prefix.pch */,
+				8B3EFD3D7A9E31A2D13AB28899985FFA /* EliteUIFramework-umbrella.h */,
+				54EC06328864E7CB8FF34E94B5783FBC /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/EliteUIFramework";
@@ -128,9 +273,10 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BD8B0D2A359F2136EFD35C1E6ECAFE23 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B4A5F929CC3A605F964B874B38255DD8 /* Products */,
+				A9770623C2591AD30F78F98C535823C8 /* Development Pods */,
+				501B28E4812633F127D9EFA017CD5B82 /* Frameworks */,
+				CD3DD77C158DC0540CB1AAD6FD80938F /* Pods */,
+				AFAFCBA9A3862FFAFBE84A6799952728 /* Products */,
 				87C601A309BEC738D70D0E56D1D6BA96 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -142,6 +288,29 @@
 				A809056F5707E5F677C3D6D698B4A38E /* Pods-EliteUIFramework_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		97E765E8CF6B3409EA5B16CB3D2C584A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4444C78D6B39A89F38F785104058FF93 /* ActionSheetPicker-3.0.modulemap */,
+				3A4C1EF40CC3CD86CD762BF96514F9F3 /* ActionSheetPicker-3.0.xcconfig */,
+				CE7BB4584A293865661605294BFF38DB /* ActionSheetPicker-3.0-dummy.m */,
+				593204011BA201B60BC063BFD2A1E76A /* ActionSheetPicker-3.0-prefix.pch */,
+				3F0E672E563F5E19BD623A008CB038DD /* ActionSheetPicker-3.0-umbrella.h */,
+				235A5A33BFF159DED3889BD6E972DD9D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		99054868DD228F476024D95ED1191153 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7528B7EF8120DDB1505D80D00C905BBD /* Foundation.framework */,
+				D0705EFF68960AD2C40538E0020B7002 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		A809056F5707E5F677C3D6D698B4A38E /* Pods-EliteUIFramework_Tests */ = {
@@ -162,66 +331,89 @@
 			path = "Target Support Files/Pods-EliteUIFramework_Tests";
 			sourceTree = "<group>";
 		};
-		B4A5F929CC3A605F964B874B38255DD8 /* Products */ = {
+		A9770623C2591AD30F78F98C535823C8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CD12C24E30F63EABEBB21007F2DD1857 /* EliteUIFramework.framework */,
-				0E257937F8C097742CCFA6464E6DA6D5 /* Pods_EliteUIFramework_Example.framework */,
-				9A9F61615871C96AD9C1C80E56368650 /* Pods_EliteUIFramework_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BD8B0D2A359F2136EFD35C1E6ECAFE23 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D6F69A598066A883EDFD7E80FD47F594 /* EliteUIFramework */,
+				D1FA050475A10D13E497543310B39204 /* EliteUIFramework */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		AFAFCBA9A3862FFAFBE84A6799952728 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				66E0A0B8EB82C2B4554C41A4439AD98B /* ActionSheetPicker_3_0.framework */,
+				A6BB939352503500F761660E5C81CDF5 /* EliteUIFramework.framework */,
+				125ABD9002B906D734651155D486C903 /* Pods_EliteUIFramework_Example.framework */,
+				DF6685DE16A7DFAD42CFB5D5D7E0631A /* Pods_EliteUIFramework_Tests.framework */,
 			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		D6F69A598066A883EDFD7E80FD47F594 /* EliteUIFramework */ = {
+		CD3DD77C158DC0540CB1AAD6FD80938F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7015FF9DBAE6B00766D96B5A97909C80 /* ReplaceMe.swift */,
-				5F279C28BBA65474F64721485C12700C /* Support Files */,
+				02C66CEC1EDE22E3327E1D6903C99AC9 /* ActionSheetPicker-3.0 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1FA050475A10D13E497543310B39204 /* EliteUIFramework */ = {
+			isa = PBXGroup;
+			children = (
+				486855658F0E20FE776B416B9BADD392 /* ValidationErrorMessage */,
+				FFA4865FAEDAF719A60D53357DCD1E32 /* AlertErrorMessage */,
+				5B951469472360700A69F277B8EC31B1 /* CountDownLabel */,
+				63C13539F739A6665384A1AC23171043 /* Support Files */,
 			);
 			name = EliteUIFramework;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		FFA4865FAEDAF719A60D53357DCD1E32 /* AlertErrorMessage */ = {
+			isa = PBXGroup;
+			children = (
+				8786D0C4DB3B0DEF27A905E7F819A9A1 /* AlertErrorMessage.swift */,
+			);
+			name = AlertErrorMessage;
+			path = EliteUIFramework/Classes/AlertErrorMessage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A7F0D04FC93197504951A2F35BBB348D /* Headers */ = {
+		0756B80D7161DE70D009DDCC204AD21C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FEA0D7944274F0FBFFF2D32746EC05F /* Pods-EliteUIFramework_Example-umbrella.h in Headers */,
+				D682B0006FE8CD0F1F4429333C8A9049 /* Pods-EliteUIFramework_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B50F0363DBAA5146D7A13FA69C5D45CD /* Headers */ = {
+		7168AF4B49EE1459BCE8AC958F7EC526 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE9112716DE2D86535A02E349EA32F5 /* EliteUIFramework-umbrella.h in Headers */,
+				2680FB2A9AAFE79796C23A20390CEF45 /* AbstractActionSheetPicker.h in Headers */,
+				90E3389D33DD00DE304548BE9C52C69F /* ActionSheetCustomPicker.h in Headers */,
+				AE84E0341C26A9B5C8E1501C8E8AAC8F /* ActionSheetCustomPickerDelegate.h in Headers */,
+				9BC276383ED044BB0926AFDFD73F928E /* ActionSheetDatePicker.h in Headers */,
+				1648AB9E52071D70CD79280AB21C94D1 /* ActionSheetDistancePicker.h in Headers */,
+				82DB07E1965CC9FFA0340EDA2C5A05A0 /* ActionSheetLocalePicker.h in Headers */,
+				6C16BD3BCB1B65194E7CEA5CF15AD446 /* ActionSheetMultipleStringPicker.h in Headers */,
+				83678861FC71A2BE986560E60D265F1C /* ActionSheetPicker-3.0-umbrella.h in Headers */,
+				9B2B8491E6B1B8EA1C9ACD37341C726B /* ActionSheetPicker.h in Headers */,
+				BDBFA441010D34FB51DC32F28314AD8D /* ActionSheetStringPicker.h in Headers */,
+				CA068FC25E80824549668A53EC9379EC /* DistancePickerView.h in Headers */,
+				0E3BFC96C6A7CCADAF3DA6C3C80F35EC /* SWActionSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E082925F514472F1DA25F1649CBA956B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114266643ECF5CF8D7251106781B6BE5 /* EliteUIFramework-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,21 +428,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		08EC66F40D0BAAF93AD87C69A88FCC7B /* EliteUIFramework */ = {
+		21937D7D659EA8D27545E970392C7A29 /* EliteUIFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EE7CC208B21CF4B405F288D74489567 /* Build configuration list for PBXNativeTarget "EliteUIFramework" */;
+			buildConfigurationList = 9A8403920F80EC1EC8E9B3876C321B69 /* Build configuration list for PBXNativeTarget "EliteUIFramework" */;
 			buildPhases = (
-				03F43A2C18501FA695FBE520D4770887 /* Sources */,
-				DDD4BE73FC27850579B78F7321EFE51C /* Frameworks */,
-				B50F0363DBAA5146D7A13FA69C5D45CD /* Headers */,
+				E3D9A0312E86E8734F37774EF9448C48 /* Sources */,
+				082A98CFC72BB9005AD4C01DF4D70787 /* Frameworks */,
+				E082925F514472F1DA25F1649CBA956B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				46B1BDF526A031B5B6F2ABA232BF6FC9 /* PBXTargetDependency */,
 			);
 			name = EliteUIFramework;
 			productName = EliteUIFramework;
-			productReference = CD12C24E30F63EABEBB21007F2DD1857 /* EliteUIFramework.framework */;
+			productReference = A6BB939352503500F761660E5C81CDF5 /* EliteUIFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		50C6830E139DC1AAA5C378D6AE4C2B05 /* Pods-EliteUIFramework_Tests */ = {
@@ -267,25 +460,43 @@
 			);
 			name = "Pods-EliteUIFramework_Tests";
 			productName = "Pods-EliteUIFramework_Tests";
-			productReference = 9A9F61615871C96AD9C1C80E56368650 /* Pods_EliteUIFramework_Tests.framework */;
+			productReference = DF6685DE16A7DFAD42CFB5D5D7E0631A /* Pods_EliteUIFramework_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C9E4A9ACFD3C642F44E17A438A86DE96 /* Pods-EliteUIFramework_Example */ = {
+		965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 936E2967AC708B4C5FA92DF11D751753 /* Build configuration list for PBXNativeTarget "Pods-EliteUIFramework_Example" */;
+			buildConfigurationList = 7E127E32D0465A08437982F8B2A3077E /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */;
 			buildPhases = (
-				F6BB4C687E0969301CD755315A10F733 /* Sources */,
-				18B99E9E10152BF59CDC8C8FF7A31736 /* Frameworks */,
-				A7F0D04FC93197504951A2F35BBB348D /* Headers */,
+				93F271AD7E26CF5BCFADCFB7A504897D /* Sources */,
+				66076240C2ED6C56B870D99D6432B3F4 /* Frameworks */,
+				7168AF4B49EE1459BCE8AC958F7EC526 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				43E1345D6552FE0CD0ACDE7E36AF518B /* PBXTargetDependency */,
+			);
+			name = "ActionSheetPicker-3.0";
+			productName = "ActionSheetPicker-3.0";
+			productReference = 66E0A0B8EB82C2B4554C41A4439AD98B /* ActionSheetPicker_3_0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B501536FD839EA89491535412777006A /* Pods-EliteUIFramework_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B65ADFE5D6DB887C0EF8975AAF391A /* Build configuration list for PBXNativeTarget "Pods-EliteUIFramework_Example" */;
+			buildPhases = (
+				5A3E8EDF099D2B4287C423675D213697 /* Sources */,
+				F990D7D284DC1F2A594B6D6D81C7ADF4 /* Frameworks */,
+				0756B80D7161DE70D009DDCC204AD21C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2C00705B2A95C8F9B7E0B06C97CDBF /* PBXTargetDependency */,
+				4B9DEB71C3CBE295D3FF975CEEBBE3F0 /* PBXTargetDependency */,
 			);
 			name = "Pods-EliteUIFramework_Example";
 			productName = "Pods-EliteUIFramework_Example";
-			productReference = 0E257937F8C097742CCFA6464E6DA6D5 /* Pods_EliteUIFramework_Example.framework */;
+			productReference = 125ABD9002B906D734651155D486C903 /* Pods_EliteUIFramework_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -305,27 +516,19 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B4A5F929CC3A605F964B874B38255DD8 /* Products */;
+			productRefGroup = AFAFCBA9A3862FFAFBE84A6799952728 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				08EC66F40D0BAAF93AD87C69A88FCC7B /* EliteUIFramework */,
-				C9E4A9ACFD3C642F44E17A438A86DE96 /* Pods-EliteUIFramework_Example */,
+				965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */,
+				21937D7D659EA8D27545E970392C7A29 /* EliteUIFramework */,
+				B501536FD839EA89491535412777006A /* Pods-EliteUIFramework_Example */,
 				50C6830E139DC1AAA5C378D6AE4C2B05 /* Pods-EliteUIFramework_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03F43A2C18501FA695FBE520D4770887 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC15D6AECAB33319BD661AAD642137BD /* EliteUIFramework-dummy.m in Sources */,
-				FB6D4D43F40BB8CA6F9F79834BED9126 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0CA0DCDFF401792CF626D5FA71A50ACC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,61 +537,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6BB4C687E0969301CD755315A10F733 /* Sources */ = {
+		5A3E8EDF099D2B4287C423675D213697 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E154F0E51F2BBE75A5C449AC55665E3 /* Pods-EliteUIFramework_Example-dummy.m in Sources */,
+				2AEB1DA15C80FE4F4C7B5544444501A0 /* Pods-EliteUIFramework_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F271AD7E26CF5BCFADCFB7A504897D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B867960879FDDD089A9E41F027E13B9 /* AbstractActionSheetPicker.m in Sources */,
+				E61ED7FAF083B75902728EB20AC4BD92 /* ActionSheetCustomPicker.m in Sources */,
+				1A0130E51AF422F68818416677EE6595 /* ActionSheetDatePicker.m in Sources */,
+				246DD685C951FFF04D55232211F076CD /* ActionSheetDistancePicker.m in Sources */,
+				430E0A46B42F47FF79AE16168D1613E9 /* ActionSheetLocalePicker.m in Sources */,
+				DA732A6C79E7252A25F23A1497ACD0FD /* ActionSheetMultipleStringPicker.m in Sources */,
+				29C34B43AFA7A1D88AB188801C76E08C /* ActionSheetPicker-3.0-dummy.m in Sources */,
+				C6CB72E223B27A0C2B06910EC0FADF67 /* ActionSheetStringPicker.m in Sources */,
+				3C8D2470783809376BA929A9603C21D9 /* DistancePickerView.m in Sources */,
+				E049CE807DA7A012BA222DE64920C3D1 /* SWActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D9A0312E86E8734F37774EF9448C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5793FD19E7C05B798BE3A257DF6326 /* AlertErrorMessage.swift in Sources */,
+				033EE98CBBB79011B396D9C71BD3C719 /* CountDownLabel+CountDown.swift in Sources */,
+				5306CCDC958648DFFF8CD9FD0B4C9E73 /* CountDownLabel+Timer.swift in Sources */,
+				BFB6299048636793A270D2E1D1ECC06E /* CountDownLabel.swift in Sources */,
+				B3ABDB1A0FEAF260F3D56BA7A90F3DD8 /* EliteUIFramework-dummy.m in Sources */,
+				B3B48A0E143F8792723F9B80701C848C /* ValidationErrorMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		43E1345D6552FE0CD0ACDE7E36AF518B /* PBXTargetDependency */ = {
+		46B1BDF526A031B5B6F2ABA232BF6FC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActionSheetPicker-3.0";
+			target = 965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */;
+			targetProxy = 05B801C83AAEA823856579FF5DAE8CCE /* PBXContainerItemProxy */;
+		};
+		4B9DEB71C3CBE295D3FF975CEEBBE3F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EliteUIFramework;
-			target = 08EC66F40D0BAAF93AD87C69A88FCC7B /* EliteUIFramework */;
-			targetProxy = B1C98C0DAD88B9DE7F94596F2B3CA67B /* PBXContainerItemProxy */;
+			target = 21937D7D659EA8D27545E970392C7A29 /* EliteUIFramework */;
+			targetProxy = 869B11DB7CEC443DEB674AFD607A2A3B /* PBXContainerItemProxy */;
+		};
+		CF2C00705B2A95C8F9B7E0B06C97CDBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActionSheetPicker-3.0";
+			target = 965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */;
+			targetProxy = E48B6FAE32FD8225D5451D52052A4CC4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E6C52A788B5D3AC2866F5877F8792F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01550F5EEDF59AC8BAE58DA59B02390E /* EliteUIFramework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EliteUIFramework/EliteUIFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EliteUIFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EliteUIFramework/EliteUIFramework.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = EliteUIFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1030E0E36836E19A65A1DCF1D215FB96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9E3F1B92D4D01A3EE34F85354990A38B /* Pods-EliteUIFramework_Tests.release.xcconfig */;
@@ -424,6 +634,80 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		10F6D9122B251F497FE29F23B6E820B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D705DC01D54080063C4EF4FFE02788 /* EliteUIFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EliteUIFramework/EliteUIFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EliteUIFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EliteUIFramework/EliteUIFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EliteUIFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		141BD13D6188AC2E772AC3C05CFDDCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1990636802B0568E33DA7138327E5D7E /* Pods-EliteUIFramework_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EliteUIFramework_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EliteUIFramework_Example/Pods-EliteUIFramework_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EliteUIFramework_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -469,43 +753,7 @@
 			};
 			name = Release;
 		};
-		32AE5C72949E9BCBEB32BB47B9ED8E75 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9160561913D0EA2FBDC1966F15F760BB /* Pods-EliteUIFramework_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-EliteUIFramework_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EliteUIFramework_Tests/Pods-EliteUIFramework_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_EliteUIFramework_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4A324D71FE8649830E05570463BC11D6 /* Release */ = {
+		172E3C90ACD82F0CDA3EF2EF439CBD6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54431C0B25B89FE0D399857F7C05E322 /* Pods-EliteUIFramework_Example.release.xcconfig */;
 			buildSettings = {
@@ -543,9 +791,45 @@
 			};
 			name = Release;
 		};
-		87825472D84D687962952C7ACEA87923 /* Release */ = {
+		32AE5C72949E9BCBEB32BB47B9ED8E75 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01550F5EEDF59AC8BAE58DA59B02390E /* EliteUIFramework.xcconfig */;
+			baseConfigurationReference = 9160561913D0EA2FBDC1966F15F760BB /* Pods-EliteUIFramework_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EliteUIFramework_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EliteUIFramework_Tests/Pods-EliteUIFramework_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EliteUIFramework_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C7E817326FF5C1EA80D2825DCEBB957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D705DC01D54080063C4EF4FFE02788 /* EliteUIFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -578,9 +862,9 @@
 			};
 			name = Release;
 		};
-		A9ED6873FAE8482A3DF19EBC6DB295FE /* Debug */ = {
+		DDFD5DE44CD0D72D7778977A1B088309 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1990636802B0568E33DA7138327E5D7E /* Pods-EliteUIFramework_Example.debug.xcconfig */;
+			baseConfigurationReference = 3A4C1EF40CC3CD86CD762BF96514F9F3 /* ActionSheetPicker-3.0.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -594,23 +878,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-EliteUIFramework_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EliteUIFramework_Example/Pods-EliteUIFramework_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_EliteUIFramework_Example;
+				PRODUCT_NAME = ActionSheetPicker_3_0;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -666,6 +945,40 @@
 			};
 			name = Debug;
 		};
+		FE4082497AED466D0B6F43BE7596A873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4C1EF40CC3CD86CD762BF96514F9F3 /* ActionSheetPicker-3.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -678,20 +991,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		936E2967AC708B4C5FA92DF11D751753 /* Build configuration list for PBXNativeTarget "Pods-EliteUIFramework_Example" */ = {
+		72B65ADFE5D6DB887C0EF8975AAF391A /* Build configuration list for PBXNativeTarget "Pods-EliteUIFramework_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9ED6873FAE8482A3DF19EBC6DB295FE /* Debug */,
-				4A324D71FE8649830E05570463BC11D6 /* Release */,
+				141BD13D6188AC2E772AC3C05CFDDCDB /* Debug */,
+				172E3C90ACD82F0CDA3EF2EF439CBD6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EE7CC208B21CF4B405F288D74489567 /* Build configuration list for PBXNativeTarget "EliteUIFramework" */ = {
+		7E127E32D0465A08437982F8B2A3077E /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E6C52A788B5D3AC2866F5877F8792F9 /* Debug */,
-				87825472D84D687962952C7ACEA87923 /* Release */,
+				DDFD5DE44CD0D72D7778977A1B088309 /* Debug */,
+				FE4082497AED466D0B6F43BE7596A873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8403920F80EC1EC8E9B3876C321B69 /* Build configuration list for PBXNativeTarget "EliteUIFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F6D9122B251F497FE29F23B6E820B9 /* Debug */,
+				3C7E817326FF5C1EA80D2825DCEBB957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,15 +1,15 @@
 {
   "name": "EliteUIFramework",
   "version": "0.1.0",
-  "summary": "A short description of EliteUIFramework.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "EliteUIFramework consists of all the elite files that are used repeatedly.",
+  "description": "EliteUIFramework consists of all the elite files that are used repeatedly like alert msg ,validation error messages,keyboard etc..,.",
   "homepage": "https://github.com/suneelseelam/EliteUIFramework",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "suneelseelam": "suneelseelam@tridentnets.in"
+    "suneelseelam": "suneelseelam9@gmail.com"
   },
   "source": {
     "git": "https://github.com/suneelseelam/EliteUIFramework.git",
@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "EliteUIFramework/Classes/**/*"
+  "source_files": "EliteUIFramework/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "ActionSheetPicker-3.0": [
+
+    ]
+  }
 }

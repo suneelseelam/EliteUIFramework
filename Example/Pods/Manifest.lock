@@ -1,5 +1,7 @@
 PODS:
-  - EliteUIFramework (0.1.0)
+  - ActionSheetPicker-3.0 (2.3.0)
+  - EliteUIFramework (0.1.0):
+    - ActionSheetPicker-3.0
 
 DEPENDENCIES:
   - EliteUIFramework (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  EliteUIFramework: 30899916ef03df356ce220ae29b474d7892efde7
+  ActionSheetPicker-3.0: eef157d75e151f255c5333d26656c7fbfe905a51
+  EliteUIFramework: 2299460dacb98d7dbd9e7bb30999b23b7bdf4468
 
 PODFILE CHECKSUM: dcc5c1b9127f430f5ae52d7e84a4af1d1a90cc6e
 

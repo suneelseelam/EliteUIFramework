@@ -37,7 +37,8 @@ EliteUIFramework consists of all the elite files that are used repeatedly like a
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-    s.frameworks = 'UIKit',
+    s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'ActionSheetPicker-3.0'
 
 end

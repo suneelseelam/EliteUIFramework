@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		2AEF42DA85FF24FF10592FE0 /* Pods-EliteUIFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EliteUIFramework_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EliteUIFramework_Example/Pods-EliteUIFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2B7264117E78EB7307E9FD68 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		464661D6ECBD6180BD137B8A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2B7264117E78EB7307E9FD68 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		464661D6ECBD6180BD137B8A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		564932413CEE1776A19E45B7 /* Pods-EliteUIFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EliteUIFramework_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EliteUIFramework_Tests/Pods-EliteUIFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EliteUIFramework_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EliteUIFramework_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		879357455F9037CC4F4A54DF /* Pods-EliteUIFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EliteUIFramework_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EliteUIFramework_Example/Pods-EliteUIFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9BEFAA539447F06F3772870C /* Pods-EliteUIFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EliteUIFramework_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EliteUIFramework_Tests/Pods-EliteUIFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BEF0C1F6F5DC725285959272 /* EliteUIFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EliteUIFramework.podspec; path = ../EliteUIFramework.podspec; sourceTree = "<group>"; };
+		BEF0C1F6F5DC725285959272 /* EliteUIFramework.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EliteUIFramework.podspec; path = ../EliteUIFramework.podspec; sourceTree = "<group>"; };
 		E67445A578CE343847AA8360 /* Pods_EliteUIFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EliteUIFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F994B1EBFFA789A25105080F /* Pods_EliteUIFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EliteUIFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -304,10 +304,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-EliteUIFramework_Example/Pods-EliteUIFramework_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
 				"${BUILT_PRODUCTS_DIR}/EliteUIFramework/EliteUIFramework.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EliteUIFramework.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +524,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -537,6 +540,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
