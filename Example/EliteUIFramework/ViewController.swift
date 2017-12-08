@@ -21,15 +21,11 @@ class ViewController: UIViewController,UITextFieldDelegate {
         
         textField.delegate = self
         self.view.addSubview(textField)
-        
-//        countDownTimerLabel.countDownCompleteClosure = { [unowned self] in
-//            self.timesUp()
-//        }
-        
-        
-        
-        
+
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    func timesUp(){
+        
     }
     
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {

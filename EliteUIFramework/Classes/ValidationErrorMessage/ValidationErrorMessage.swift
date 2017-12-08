@@ -11,29 +11,39 @@ public class ValidationErrorMessage: NSObject {
     
     public static let instance = ValidationErrorMessage()
  
-    public let firstName = "Please enter your first name."
-    public let lastName = "Please enter your last name."
+    public let firstName = "Please enter a first name."
+    public let lastName = "Please enter a last name."
     
     public let password = "Please provide a password"
     public let validPassword = "Please provide a valid password"
     
-    public let email =  "Please enter your email id."
-    public let validEmail = "Please provide a valid email id."
+    public let email =  "Please enter an email id."
+    public let validEmail = "Please enter a valid email id."
     public let validEmailDomain = "Please choose any of the email domain."
+    public let emailExist = "Email id already exists. Please enter different email id."
     
-    public let phoneno = "Please enter your phone number."
-    public let validPhoneno = "Please enter a valid phone number."
+    public let phoneNo = "Please enter a Phone Number."
+    public let validPhoneNo = "Please enter a valid Phone Number."
+    public let phoneNoExist = "Please try with another mobile #"
     
-    public let city = "Please provide your city name."
-    public let address = "Please provide your address."
+    public let city = "Please enter a city."
+    public let address = "Please provide an address."
     
-    public let zipcode = "Please enter your zipcode."
-    public let validzipcode = "Please enter a valid zipcode."
+    public let zipcode = "Please enter a  Zipcode."
+    public let validzipcode = "Please enter a valid Zipcode."
     
-    public let termsAndConditions = "Please agree to the terms and conditions."
-    public let term = "Please accept the Terms and Conditions."
+    public let termsAndConditions = "Please take a moment to review and accept the terms and conditions in order to submit this data."
     
     public let music = "Please choose a music category."
-    public let companyName = "Please provide a company name."
+    public let companyName = "Please enter a company name."
+    
+    public let textFieldOptional = "Please enter values for any one of the fields."
+    public let duplicateCode = "This code has already been used."
+    
+    public let invalidCode = "Please enter a valid code."
+    public let allFieldsEmpty = "Please fill in all the fields."
+    
+    public let notRegisteredUser = "You are not a registered user. Please take a moment to register with us."
+    
     
 }
