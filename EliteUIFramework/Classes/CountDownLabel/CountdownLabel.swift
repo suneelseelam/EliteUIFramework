@@ -13,7 +13,7 @@ public class CountDownLabel: UILabel {
     @IBInspectable var prefix: String = ""
 
     /** 秒数 */
-    @IBInspectable var maxSecond: Int = 0 {didSet{maxSecond_private = maxSecond}}
+    @IBInspectable public var maxSecond: Int = 0 {didSet{maxSecond_private = maxSecond}}
     var maxSecond_private: Int = 0
     
     var timer: Timer! 
