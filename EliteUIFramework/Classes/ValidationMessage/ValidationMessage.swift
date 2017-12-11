@@ -7,9 +7,9 @@
 
 import Foundation
 
-public class ValidationErrorMessage: NSObject {
+public class ValidationMessage: NSObject {
     
-    public static let instance = ValidationErrorMessage()
+    public static let instance = ValidationMessage()
  
     public let firstName = "Please enter a first name."
     public let lastName = "Please enter a last name."
@@ -44,6 +44,5 @@ public class ValidationErrorMessage: NSObject {
     public let allFieldsEmpty = "Please fill in all the fields."
     
     public let notRegisteredUser = "You are not a registered user. Please take a moment to register with us."
-    
-    
+
 }

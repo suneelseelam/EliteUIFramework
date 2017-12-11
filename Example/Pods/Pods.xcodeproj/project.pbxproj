@@ -34,9 +34,9 @@
 		A2F74AC56E76F01E7A69BB8D3A7E3DB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0705EFF68960AD2C40538E0020B7002 /* UIKit.framework */; };
 		AE84E0341C26A9B5C8E1501C8E8AAC8F /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C568B07D7817264B94197F093BD292F9 /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3ABDB1A0FEAF260F3D56BA7A90F3DD8 /* EliteUIFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4391E31E73B22E0729215BE8A06C3419 /* EliteUIFramework-dummy.m */; };
-		B3B48A0E143F8792723F9B80701C848C /* ValidationErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACAA5815AED1B0EA5406F421EC8E470 /* ValidationErrorMessage.swift */; };
+		B3B48A0E143F8792723F9B80701C848C /* ValidationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACAA5815AED1B0EA5406F421EC8E470 /* ValidationMessage.swift */; };
 		BDBFA441010D34FB51DC32F28314AD8D /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A7FB5AF07C70BF12318BE490621954 /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE5793FD19E7C05B798BE3A257DF6326 /* AlertErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8786D0C4DB3B0DEF27A905E7F819A9A1 /* AlertErrorMessage.swift */; };
+		BE5793FD19E7C05B798BE3A257DF6326 /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8786D0C4DB3B0DEF27A905E7F819A9A1 /* AlertMessage.swift */; };
 		BFB6299048636793A270D2E1D1ECC06E /* CountDownLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0ACAD2519819D3518D7941FEBFE3E1 /* CountDownLabel.swift */; };
 		C6CB72E223B27A0C2B06910EC0FADF67 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5087EB01E4D0F4BEE53232C3CB94B5B2 /* ActionSheetStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		CA068FC25E80824549668A53EC9379EC /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = CCDA8D17CF2D7407FC0354A732CB4258 /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -109,7 +109,7 @@
 		7528B7EF8120DDB1505D80D00C905BBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7D5A6028F802F594FB33A36C7795F4A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E60CFA1A2D37281B9FB7AC8BF76C4B6 /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
-		8786D0C4DB3B0DEF27A905E7F819A9A1 /* AlertErrorMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertErrorMessage.swift; sourceTree = "<group>"; };
+		8786D0C4DB3B0DEF27A905E7F819A9A1 /* AlertMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
 		8B3EFD3D7A9E31A2D13AB28899985FFA /* EliteUIFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EliteUIFramework-umbrella.h"; sourceTree = "<group>"; };
 		9160561913D0EA2FBDC1966F15F760BB /* Pods-EliteUIFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliteUIFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -134,7 +134,7 @@
 		E2BEB32EF27148FA0CF5F6B9A944AEE4 /* Pods-EliteUIFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EliteUIFramework_Tests-resources.sh"; sourceTree = "<group>"; };
 		E33A609A31EC0E8493E555C8759C000B /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
 		EA369D61D54876A2CBA9C47A941ADD1C /* Pods-EliteUIFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EliteUIFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EACAA5815AED1B0EA5406F421EC8E470 /* ValidationErrorMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ValidationErrorMessage.swift; sourceTree = "<group>"; };
+		EACAA5815AED1B0EA5406F421EC8E470 /* ValidationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ValidationMessage.swift; sourceTree = "<group>"; };
 		F8F924914A7C17D78AE7B652B981724E /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
 		FD0411B763BD30ABF699F609443944B8 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
 		FD61C07A5448750B5D4CB191287129B1 /* Pods-EliteUIFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EliteUIFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -226,13 +226,13 @@
 			path = "Target Support Files/Pods-EliteUIFramework_Example";
 			sourceTree = "<group>";
 		};
-		486855658F0E20FE776B416B9BADD392 /* ValidationErrorMessage */ = {
+		486855658F0E20FE776B416B9BADD392 /* ValidationMessage */ = {
 			isa = PBXGroup;
 			children = (
-				EACAA5815AED1B0EA5406F421EC8E470 /* ValidationErrorMessage.swift */,
+				EACAA5815AED1B0EA5406F421EC8E470 /* ValidationMessage.swift */,
 			);
-			name = ValidationErrorMessage;
-			path = EliteUIFramework/Classes/ValidationErrorMessage;
+			name = ValidationMessage;
+			path = EliteUIFramework/Classes/ValidationMessage;
 			sourceTree = "<group>";
 		};
 		501B28E4812633F127D9EFA017CD5B82 /* Frameworks */ = {
@@ -361,8 +361,8 @@
 		D1FA050475A10D13E497543310B39204 /* EliteUIFramework */ = {
 			isa = PBXGroup;
 			children = (
-				486855658F0E20FE776B416B9BADD392 /* ValidationErrorMessage */,
-				FFA4865FAEDAF719A60D53357DCD1E32 /* AlertErrorMessage */,
+				486855658F0E20FE776B416B9BADD392 /* ValidationMessage */,
+				FFA4865FAEDAF719A60D53357DCD1E32 /* AlertMessage */,
 				5B951469472360700A69F277B8EC31B1 /* CountDownLabel */,
 				63C13539F739A6665384A1AC23171043 /* Support Files */,
 			);
@@ -370,13 +370,13 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		FFA4865FAEDAF719A60D53357DCD1E32 /* AlertErrorMessage */ = {
+		FFA4865FAEDAF719A60D53357DCD1E32 /* AlertMessage */ = {
 			isa = PBXGroup;
 			children = (
-				8786D0C4DB3B0DEF27A905E7F819A9A1 /* AlertErrorMessage.swift */,
+				8786D0C4DB3B0DEF27A905E7F819A9A1 /* AlertMessage.swift */,
 			);
-			name = AlertErrorMessage;
-			path = EliteUIFramework/Classes/AlertErrorMessage;
+			name = AlertMessage;
+			path = EliteUIFramework/Classes/AlertMessage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -566,12 +566,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE5793FD19E7C05B798BE3A257DF6326 /* AlertErrorMessage.swift in Sources */,
+				BE5793FD19E7C05B798BE3A257DF6326 /* AlertMessage.swift in Sources */,
 				033EE98CBBB79011B396D9C71BD3C719 /* CountDownLabel+CountDown.swift in Sources */,
 				5306CCDC958648DFFF8CD9FD0B4C9E73 /* CountDownLabel+Timer.swift in Sources */,
 				BFB6299048636793A270D2E1D1ECC06E /* CountDownLabel.swift in Sources */,
 				B3ABDB1A0FEAF260F3D56BA7A90F3DD8 /* EliteUIFramework-dummy.m in Sources */,
-				B3B48A0E143F8792723F9B80701C848C /* ValidationErrorMessage.swift in Sources */,
+				B3B48A0E143F8792723F9B80701C848C /* ValidationMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

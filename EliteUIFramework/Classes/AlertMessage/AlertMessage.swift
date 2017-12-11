@@ -7,12 +7,12 @@
 
 import Foundation
 
-public class AlertErrorMessage {
+public class AlertMessage : NSObject {
     
-    public static let instance = AlertErrorMessage()
+    public static let instance = AlertMessage()
     
     public let ok = "Ok"
-    public let oKay = "Okay"
+    public let okay = "Okay"
     public let done = "Done"
     public let cancel = "Cancel"
     

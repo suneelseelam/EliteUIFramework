@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EliteUIFramework'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'EliteUIFramework consists of all the elite files that are used repeatedly.'
 
 # This description is used to generate tags and improve search results.
@@ -40,5 +40,6 @@ EliteUIFramework consists of all the elite files that are used repeatedly like a
     s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
     s.dependency 'ActionSheetPicker-3.0'
+    s.dependency 'RMessage'
 
 end
